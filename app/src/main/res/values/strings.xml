@@ -1,4 +1,8 @@
 <resources>
-    <string name="app_name">HelloWorld</string>
-    <string name="greeting_text">Hello World! "From Name" </string>
+    <string name="app_name">CovidApp</string>
+    <string name="instrn1">Wearing a mask when outside</string>
+    <string name="instrn2">Washing hands frequently</string>
+    <string name="instrn3">Maintaining 2 feet distnce</string>
+    <string name="instrn4">Covering nose and mouth while sneezing and coughing</string>
+    <string name="instrn5">Taking health diets</string>
 </resources>
