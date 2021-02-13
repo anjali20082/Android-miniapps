@@ -1,4 +1,17 @@
 <resources>
-    <string name="app_name">HelloWorld</string>
-    <string name="greeting_text">Hello World! "From Name" </string>
+    <string name="hello_world">Hello Round World!</string>
+    <string name="app_name">Musikal</string>
+    <string name="str1">START MUSIC </string>
+    <string name="str2">STOP MUSIC </string>
+    <string name="str3">CHECK INTERNET </string>
+    <string name="str4">DOWNLOAD SONG</string>
+    <string name="str5">NEXT </string>
+    <string name="str6">PREVIOUS</string>
+    <string name="song1">Play brave </string>
+    <string name="song2">Play comealive </string>
+    <string name="song3">Play daylight </string>
+    <string name="song4">Play pricetag </string>
+
+    <string name="title_activity_internet">InternetActivity</string>
+
 </resources>
