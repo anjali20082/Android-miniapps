@@ -23,12 +23,10 @@ public class MainActivity extends AppCompatActivity {
     public final String TAG="Fragment";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         fragmentManager = getSupportFragmentManager();
         addMusicFragment();
-
     }
 
     @Override
@@ -55,7 +53,6 @@ public class MainActivity extends AppCompatActivity {
 //        Intent intent2 = new Intent(this, MusicService.class);
 //        stopService(intent2);
 //    }
-
 
     @Override
     protected void onStop() {

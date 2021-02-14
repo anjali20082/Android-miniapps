@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -49,7 +50,7 @@ public class MusicFragment extends Fragment {
 //           }
 //               music = MediaPlayer.create(getContext(), songs.get(0));
                    Intent intent = new Intent(getContext(), MusicService.class);
-               intent.putExtra("songnumber",1);
+                   intent.putExtra("songnumber",1);
                    getContext().startService(intent);
            }
        });
@@ -106,8 +107,11 @@ public class MusicFragment extends Fragment {
         internet_connect.setOnClickListener((new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getContext(), InternetConnect.class);
-                startActivity(intent);
+                Intent intent = new Intent(getContext(),InternetConnect.class);
+                getContext().startActivity(intent);
+                Log.i("INTENT","Activity2reached");
+//                Intent i=new Intent(getActivity(),InternetFragment.class);
+//                getActivity().startActivity(i);
             }
         }));
         return rootView;

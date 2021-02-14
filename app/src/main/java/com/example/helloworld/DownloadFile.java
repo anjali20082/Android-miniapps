@@ -67,7 +67,7 @@ public class DownloadFile extends AsyncTask<String, Integer, String> {
                         + " " + connection.getResponseMessage();
             }
 //            Toast.makeText(mContext, "Connected successfully!",Toast.LENGTH_SHORT).show();
-//            fileout = mContext.openFileOutput("mydownloadedfile.mp3", Context.MODE_PRIVATE);
+
             int fileLength = connection.getContentLength();
             // download the file
             input = connection.getInputStream();
