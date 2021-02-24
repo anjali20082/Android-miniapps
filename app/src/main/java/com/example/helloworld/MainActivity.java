@@ -3,12 +3,12 @@ package com.example.helloworld;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-
-public class MainActivity extends AppCompatActivity {
+import androidx.fragment.app.Fragment;
+public class MainActivity extends SingleFragmentActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+    protected Fragment createFragment() {
+        return new StudentListFragment();
     }
+
 }
